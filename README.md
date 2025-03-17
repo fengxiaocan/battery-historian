@@ -10,9 +10,14 @@
 
     go mod init battery-historian
     go mod tidy
-    #运行项目
+   
+
+ 4.运行项目
+    
     go run setup.go
+    
+5.启动项目
 
+    go run cmd/battery-historian/battery-historian.go
 
-#启动项目
-go run cmd/battery-historian/battery-historian.go
+6.打开网址 http://localhost:9999/
