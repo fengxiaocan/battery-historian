@@ -6,13 +6,13 @@
 
 2.clone该项目或者下载项目解压
 
-3.运行init.sh或者执行以下代码
+3.初始化go mod
 
     go mod init battery-historian
     go mod tidy
    
 
- 4.运行项目
+ 4.设置go项目
     
     go run setup.go
     
